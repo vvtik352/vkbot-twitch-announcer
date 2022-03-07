@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/vvtik352/vkbot-twitch-announcer/issues"
   },
-  "homepage": "https://github.com/vvtik352/vkbot-twitch-announcer#readme"
+  "homepage": "https://github.com/vvtik352/vkbot-twitch-announcer#readme",
+  "dependencies": {
+    "node-vk-bot-api": "^3.5.0"
+  }
 }
