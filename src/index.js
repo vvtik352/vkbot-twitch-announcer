@@ -1,14 +1,9 @@
-const http = require('http');
+const VkBot = require('node-vk-bot-api');
 
-const hostname = '127.0.0.1';
-const port = 3000;
+const bot = new VkBot('process.env.TOKEN');
 
-const server = http.createServer((req, res) => {
-  res.statusCode = 200;
-  res.setHeader('Content-Type', 'text/plain');
-  res.end('Hello World');
+bot.command('/start', (ctx) => {
+  ctx.reply('Hello!');
 });
 
-server.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
-});
+bot.startPolling();
