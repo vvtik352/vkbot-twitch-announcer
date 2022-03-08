@@ -17,7 +17,15 @@
   },
   "homepage": "https://github.com/vvtik352/vkbot-twitch-announcer#readme",
   "dependencies": {
-    "node-vk-bot-api": "^3.5.0"
+    "@vk-io/hear": "^1.1.0",
+    "crypto": "^1.0.1",
+    "express": "^4.17.3",
+    "form-data": "^4.0.0",
+    "node-fetch": "^3.2.2",
+    "node-vk-bot-api": "^3.5.0",
+    "twitch": "^4.6.7",
+    "twitch-auth": "^4.6.7",
+    "twitch-eventsub": "^4.6.7",
+    "vk-io": "^4.5.0"
   }
 }
-
